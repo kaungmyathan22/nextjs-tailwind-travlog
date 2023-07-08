@@ -1,6 +1,6 @@
 export function NewSletter({}) {
   return (
-    <div className="max-w-[1110px] mx-auto py-32 px-16 bg-[rgba(250, 205, 73, 0.08)] mt-32 flex flex-col gap-y-16">
+    <div className="max-w-[1110px] mx-auto py-32 px-16 bg-[#facd4914] mt-32 flex flex-col gap-y-16">
       <div className="flex flex-col gap-y-8">
         <h4 className="text-pink uppercase font-bold text-[23px] .tracking-4_6px text-center">
           subscribe to our newsletter
