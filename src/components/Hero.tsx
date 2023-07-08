@@ -1,5 +1,5 @@
 import { HeroLeftSide } from "@/components/HeroLeftSide";
-import { RightSide } from "./RightSide";
+import { RightSide } from "../components/RightSide";
 
 export function Hero({}) {
   return (
