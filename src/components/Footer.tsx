@@ -2,7 +2,10 @@ import Logo from "@/components/Icons/Logo";
 
 export function Footer({}) {
   return (
-    <footer className="max-w-[1100px] mx-auto flex mb-[86px] mt-[128px] gap-x-[153px]">
+    <footer className="max-w-[1100px] mx-auto flex mb-[86px] mt-[128px] gap-x-[153px] relative">
+      <div className="absolute -right-[10.9%] -top-[100%]">
+        <img src="/assets/images/footer-objects.png" alt="" />
+      </div>
       <div className="flex flex-col w-[278px] gap-y-8">
         <div className="flex items-center gap-x-4">
           <Logo />
