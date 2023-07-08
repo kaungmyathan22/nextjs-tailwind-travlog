@@ -33,7 +33,21 @@ export function KeyFeatures({}) {
           />
         </div>
       </div>
-      <div></div>
+      <div className="relative flex-1 flex flex-col">
+        <img
+          src="/assets/images/background.png"
+          alt=""
+          className="absolute -right-32"
+        />
+        <div className="relative">
+          <img src="/assets/images/Rectangle9.png" alt="" />
+          <img
+            src="/assets/images/Rectangle10.png"
+            alt=""
+            className="absolute top-[40%] -right-20"
+          />
+        </div>
+      </div>
     </div>
   );
 }
