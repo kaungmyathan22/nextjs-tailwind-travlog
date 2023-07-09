@@ -1,6 +1,11 @@
 export function NewSletter({}) {
   return (
-    <div className="max-w-[1110px] mx-auto py-32 px-16 bg-[#facd4914] mt-32 flex flex-col gap-y-16">
+    <div className="max-w-[1110px] mx-auto py-32 px-16 bg-[#facd4914] mt-64 flex flex-col gap-y-16 relative">
+      <img
+        src="/assets/images/newsletter-graphics.png"
+        className="w-[183px] h-[176px] absolute -top-10 -left-20"
+        alt=""
+      />
       <div className="flex flex-col gap-y-8">
         <h4 className="text-pink uppercase font-bold text-[23px] .tracking-4_6px text-center">
           subscribe to our newsletter
@@ -10,7 +15,7 @@ export function NewSletter({}) {
         </p>
       </div>
       <div className="flex items-center gap-x-16 ">
-        <div className="flex-1 p-8 gap-x-4 flex items-center bg-white">
+        <div className="flex items-center flex-1 p-8 bg-white gap-x-4">
           <img src="/assets/svgs/message.svg" alt="message" />
           <input
             type="text"

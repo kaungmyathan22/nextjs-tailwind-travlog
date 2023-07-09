@@ -6,6 +6,7 @@ import { PackageSection } from "../components/PackageSection";
 import { Services } from "../components/Services";
 import { KeyFeatures } from "./../components/KeyFeatures";
 import { NewSletter } from "./../components/NewSletter";
+import { Testimonial } from './../components/Testimonial';
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
       <Destinations />
       <PackageSection />
       <KeyFeatures />
+      {/* testimonial */}
+      <Testimonial     />
       {/* newsletter */}
       <NewSletter />
       <Footer />
